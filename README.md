@@ -8,8 +8,19 @@ This software is presented as a quick fix to a problem with software that is har
 
 I cannot accept any liability for any damages (to your computer, programmer, devices being programmed or any other device) that might occur when using this software. **You use this software at your own risk**.
 
-[Inpout32.dll](http://logix4u.net/Legacy_Ports/Parallel_Port/Inpout32.dll_for_Windows_98/2000/NT/XP.html) is by Logix4u, [io.dll](http://www.geekhideout.com/iodll.shtml) is by Fred.
+Inpout32.dll was originally from [Logix4u](http://logix4u.net/Legacy_Ports/Parallel_Port/Inpout32.dll_for_Windows_98/2000/NT/XP.html), this package contains the updated 64-bit compatible version from [HighRez](http://www.highrez.co.uk/Downloads/InpOut32/), [io.dll](http://www.geekhideout.com/iodll.shtml) is by Fred.
 
+Inpout32.dll comes with the following license text:
+
+> Copyright (c) <2003-2015> Phil Gibbons <www.highrez.co.uk>
+> Portions Copyright (c) <2000> <logix4u.net>
+> 
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+> 
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+> 
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+    
 ## Installation
 
 Install the _Willem EPROM/FLASH Programmer_ software normally, then copy _io.dll_, _io.ini_ and _inpout32.dll_ to its installation directory (it should contain the current _io.dll_). Open _io.ini_ and change the default address (0x378) to the base address of your parallel port.
